@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title>Formulir Klinik Sehat </title>
+ <style>
+  body
+  {
+    background-image: url(https://img.pikbest.com/backgrounds/20220119/medical-background-dentist_6241229.jpg!bw700);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+  }
+ </style>
+</head>
+<body>
+
+    <div class="form-header-group  header-large">
+        <div class="header-text httac htvam">
+          <h1 style="text-align:center; color:#FF4500; font-family:Cochin" id="header_15" class="form-header" data-component="header">
+            XAFT Dental<h1></h1>
+          </h1>
+          <br>
+          <div style="text-align:center" id="subHeader_10" class="form-subHeader">
+            KLINIK GIGI XAFT
+</div>
+          <div style="text-align:center" id="subHeader_10" class="form-subHeader">
+            Formulir ini adalah persyaratan sebelum menjadwalkan janji temu anda.
+            Harap jawab formulir ini dengan jujur
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+<form action=" formulir.html" method="get">
+Nama: <input type="text" name="nama" value="" />
+<br /><br>
+Umur: <input type="Umur" name="Umur" />
+<br /><br>
+Jenis Kelamin : 
+<input type="radio" name="jenis_kelamin" value="laki-laki" /> 
+Laki - Laki
+<input type="radio" name="jenis_kelamin" value="perempuan" /> 
+Perempuan
+<br /><br>
+<tr>
+Keperluan:
+   <td><input type="checkbox" name="Keperluan" /> Cek gigi </td>
+   <td><input type="checkbox" name="Keperluan" /> Cabut gigi </td>
+   <td></td><input type="checkbox" name="Keperluan" /> Pasang gigi palsu </td>
+</tr>
+<br /><br>
+Asal Kota:
+<select name="asal_kota">
+<option value="Asal Kota"> ---Asal Kota---</option>
+<option value="Madiun"> Madiun</option>
+<option value="ponorogo"> Ponorogo</option>
+<option value="Magetan"> Magetan</option>
+<option value="Ngawi"> Ngawi</option>
+<option value="Caruban"> Caruban</option>
+<option value="Blitar"> Blitar</option>
+<option value="Pacitan"> Pacitan</option>
+<option value="Trenggalek"> Trenggalek</option>
+</select>
+<br /><br>
+Keluhan lain:<br>
+<textarea name="komentar" rows="5" cols="20">
+</textarea>
+<br />
+<input type="submit" value="Mulai Proses!" >
+</form>
+</body>
+</html>

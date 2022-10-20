@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title>Form Service Motor</title>
+ <style>
+    body
+    {
+      background-image: url(https://t3.ftcdn.net/jpg/02/70/15/92/360_F_270159265_t8pQOL3pEaNMEytjL7ZN8yydNjfRIaE2.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-header-group  header-large">
+    <div class="header-text httac htvam">
+      <h1 style="text-align:center; font-family:Cochin" id="header_15" class="form-header" data-component="header">
+        ABAD SERVICE<h1></h1>
+      </h1>
+      <div style="text-align:center" id="subHeader_10" class="form-subHeader">
+        Formulir usulan pemeliharaan perawatan dan perbaikan kendaraan
+      </div>
+    </div>
+  </div>
+  <br>
+
+<form action=" formulir.html" method="get">
+Nama Pemohon: <input type="text" name="nama" value="" />
+<br /><br>
+Asal Kota:
+<select name="asal_kota" >
+<option value="--Pilih salah satu--"> --Pilih salah satu--</option>
+<option value="Madiun"> Madiun</option>
+<option value="ponorogo"> Ponorogo</option>
+<option value="Magetan"> Magetan</option>
+<option value="Ngawi"> Ngawi</option>
+<option value="Caruban"> Caruban</option>
+<option value="Blitar"> Blitar</option>
+<option value="Pacitan"> Pacitan</option>
+<option value="Trenggalek"> Trenggalek</option>
+</select>
+<br /><br>
+Nomor Polisi: <input type="plat_nomor" name="plat_nomor" />
+<br /><br>
+Jenis kendaraan: <input type="checkbox" name="Sepeda_Motor" /> Sepeda Motor
+<input type="checkbox" name="Mobil" /> Mobil
+<br /><br>
+Jenis servis: <input type="checkbox" name="Servis_ringan" /> Servis ringan
+<input type="checkbox" name="Servis_berat" /> Servis berat
+<br /><br>
+<form action=" formulir.html" method="get">
+Type/Merk kendaraan: <input type="text" name="nama" value="" />
+<br /><br>
+Keluhan:<br>
+<textarea name="komentar" rows="5" cols="20">
+</textarea>
+<br />
+<input type="submit" value="Kirim" >
+</form>
+</body>
+</html>
